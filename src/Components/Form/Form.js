@@ -18,6 +18,7 @@ const Form = () => {
                type: "ADD_TO_A",
                payload: {
                    value: Number(val),
+                   comment: `A is incremented by ${val}`
                }
            })
         }
@@ -27,6 +28,7 @@ const Form = () => {
                type: "SUBTRACT_FROM_A",
                payload: {
                    value: Number(val),
+                   comment: `A is decremented by ${val}`
                }
            })
         }
@@ -36,6 +38,7 @@ const Form = () => {
                type: "ADD_TO_B",
                payload: {
                    value: Number(val),
+                   comment: `B is incremented by ${val}`
                }
            })
         }
@@ -45,6 +48,7 @@ const Form = () => {
                type: "SUBTRACT_FROM_B",
                payload: {
                    value: Number(val),
+                   comment: `B is decremented by ${val}`
                }
            })
         }
