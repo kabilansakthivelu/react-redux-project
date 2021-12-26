@@ -1,8 +1,13 @@
+import Results from './Components/Results/Results';
+import Form from './Components/Form/Form';
+import History from './Components/History/History';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-red-500">Hello</h1>
+      <Results />
+      <Form />
+      <History />
     </div>
   );
 }
