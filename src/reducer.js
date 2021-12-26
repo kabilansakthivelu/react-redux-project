@@ -9,7 +9,7 @@ export const reducer = (state, action) =>{
         case "ADD_TO_B": 
         return {
             ...state,
-            valueOfA: state.valueOfB + action.payload.value,
+            valueOfB: state.valueOfB + action.payload.value,
         }
         case "SUBTRACT_FROM_A": 
         return {
@@ -19,7 +19,7 @@ export const reducer = (state, action) =>{
         case "SUBTRACT_FROM_B": 
         return {
             ...state,
-            valueOfA: state.valueOfB - action.payload.value,
+            valueOfB: state.valueOfB - action.payload.value,
         }
         default:
             return state;
